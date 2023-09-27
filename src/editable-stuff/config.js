@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Jerry",
   middleName: "",
   lastName: "Wu",
-  message: " Engineer | Programmer | Java C++ Python Developer ",
+  message: " Engineer | Programmer | C++ Python Java Developer ",
   icons: [
     {
       image: "fa-github",
@@ -58,8 +58,8 @@ const about = {
   imageLink: require("../editable-stuff/jerrywu.png"),
   imageSize: 375,
   message:
-    "My name is Jerry (ShengHao) Wu. I'm pursuing Master's student in Information Networking at Carnegie Mellon University. I have professional experience in system software and web applications, and I'm passionate about the field of software and solutions engineering",
-  resume: "https://drive.google.com/file/d/1uMAEDr9q4SKG6E1AO7y4RfSz6QQhMHtA/view?usp=sharing",
+    "My name is Jerry (ShengHao) Wu. I'm a Senior Software Engineer in Ambarella. I have 5 years of professional experience in software, and I'm passionate about the field of system and embedded software",
+  resume: "https://drive.google.com/file/d/101zBuhdag_8dTnD48GHWyhzMJrVpmCKr/view",
 };
 
 // PROJECTS SECTION
@@ -104,9 +104,9 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Java", value: 90 },
     { name: "C/C++", value: 90 },
-    { name: "Python", value: 85 },
+    { name: "Python", value: 90 },
+    { name: "Java", value: 85 },
     { name: "JavaScript", value: 75 },
     { name: "React", value: 75 },
     { name: "Hack/PHP", value: 75 },
@@ -138,6 +138,11 @@ const experiences = {
   show: true,
   heading: "Experiences",
   data: [
+    {
+      role: 'Senior Software Engineer',// Here Add Company Name
+      companylogo: require('../assets/img/ambarella.png'),
+      date: 'Feb 2023 – Present',
+    },
     {
       role: 'Solutions Engineer Intern',// Here Add Company Name
       companylogo: require('../assets/img/meta.png'),

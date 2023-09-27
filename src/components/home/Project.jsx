@@ -30,7 +30,7 @@ const Project = ({ heading, username, length, specfic }) => {
       const response = await axios.get(allReposAPI);
       // selecting specific repos only
       for (let repo of response.data) {
-        if (repo.name == 'FitCheck' || repo.name == 'Publish-Subscribe-Platform' || repo.name == 'MedAnnot' || repo.name == 'Python-Project') {
+        if (repo.name == 'FitCheck' || repo.name == 'Publish-Subscribe-Platform' || repo.name == 'MedAnnot' || repo.name == 'Python-Project' || repo.name == 'Multi-Threading-File-System') {
           repoList.push(repo);
         }
       }
