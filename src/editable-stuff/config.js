@@ -130,8 +130,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software/Solutons Engineering opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "shengha2@andrew.cmu.edu",
+    "I'm currently looking for experienced software engineer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "iamjerrywu188@gmail.com",
 };
 
 const experiences = {
