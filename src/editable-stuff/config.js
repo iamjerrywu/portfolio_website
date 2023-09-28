@@ -58,8 +58,8 @@ const about = {
   imageLink: require("../editable-stuff/jerrywu.png"),
   imageSize: 375,
   message:
-    "My name is Jerry (ShengHao) Wu. I'm a Senior Software Engineer in Ambarella. I have 5 years of professional experience in software, and I'm passionate about the field of system and embedded software",
-  resume: "https://drive.google.com/file/d/101zBuhdag_8dTnD48GHWyhzMJrVpmCKr/view",
+    "My name is Jerry (ShengHao) Wu, a Senior Software Engineer in Ambarella. I have over 5 years of professional experience as a software developer, and I'm passionate about the field of system, compiler and embedded software.",
+  resume: "https://drive.google.com/file/d/1o84ycC0EixW-m4LKP2gnJplL1aAThkhp/view",
 };
 
 // PROJECTS SECTION
