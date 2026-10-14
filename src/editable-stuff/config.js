@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Jerry",
   middleName: "",
   lastName: "Wu",
-  message: " Engineer | Programmer | C++ Python Java Developer ",
+  message: "Senior Software Engineer @ Ambarella | ML Compilers & AI System | ex-Meta, ex-MediaTek | CMU",
   icons: [
     {
       image: "fa-github",
@@ -58,7 +58,7 @@ const about = {
   imageLink: require("../editable-stuff/jerrywu.png"),
   imageSize: 375,
   message:
-    "My name is Jerry (ShengHao) Wu, a Senior Software Engineer in Ambarella. I have over 5 years of professional experience as a software developer, and I'm passionate about the field of system, compiler and embedded software.",
+    "Senior Software Engineer specializing in ML Compilers, AI Inference Acceleration, and Edge Systems, with 8.5+ years of experience bridging deep learning models with custom silicon.",
   resume: require("../editable-stuff/Sheng_Hao_Wu_Resume_2027.pdf"),
 };
 
@@ -68,10 +68,10 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Selected Projects",
   gitHubUsername: "iamjerrywu", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 0,
   specificRepos: [],
 };
 
@@ -82,20 +82,20 @@ const leadership = {
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
-    { 
-      img: require("../editable-stuff/jerrywu.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/jerrywu.png"),
+      label: "First slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
-    { 
-      img: require("../editable-stuff/jerrywu.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/jerrywu.png"),
+      label: "Second slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum."
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width: "615",
+    height: "450"
   }
 };
 
@@ -104,14 +104,16 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "C/C++", value: 90 },
-    { name: "Python", value: 90 },
-    { name: "Java", value: 85 },
-    { name: "JavaScript", value: 75 },
-    { name: "React", value: 75 },
-    { name: "Hack/PHP", value: 75 },
-    { name: "HTML/CSS", value: 60 },
-    { name: "SQL", value: 60 },
+    { name: "MLIR / LLVM", value: 94 },
+    { name: "Graph IR Transformations", value: 92 },
+    { name: "Compiler Auto‑Tuning", value: 91 },
+    { name: "DAG Scheduling", value: 90 },
+    { name: "Operator Lowering & Decomposition", value: 90 },
+    { name: "Memory Planning & Buffer Allocation", value: 89 },
+    { name: "Python (NumPy, Multiprocessing)", value: 88 },
+    { name: "C++", value: 87 },
+    { name: "Hardware Acceleration (NPU/VPU, Edge AI)", value: 86 },
+    { name: "Quantization & Low‑Precision", value: 85 },
   ],
   softSkills: [
     { name: "Problem Solving", value: 90 },
@@ -129,8 +131,7 @@ const skills = {
 const getInTouch = {
   show: true,
   heading: "Get In Touch",
-  message:
-    "I'm currently looking for experienced software engineer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  message: "I'm actively seeking senior roles focused on ML compiler development, AI inference acceleration, and edge system design. If you have relevant opportunities or questions, please email me at",
   email: "iamjerrywu188@gmail.com",
 };
 
