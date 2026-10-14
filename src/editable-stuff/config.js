@@ -59,7 +59,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Jerry (ShengHao) Wu, a Senior Software Engineer in Ambarella. I have over 5 years of professional experience as a software developer, and I'm passionate about the field of system, compiler and embedded software.",
-  resume: "https://drive.google.com/file/d/1o84ycC0EixW-m4LKP2gnJplL1aAThkhp/view",
+  resume: require("../editable-stuff/Sheng_Hao_Wu_Resume_2027.pdf"),
 };
 
 // PROJECTS SECTION
@@ -144,7 +144,7 @@ const experiences = {
       date: 'Feb 2023 – Present',
     },
     {
-      role: 'Solutions Engineer Intern',// Here Add Company Name
+      role: 'Developer Infrastructure & Workflows Intern',// Here Add Company Name
       companylogo: require('../assets/img/meta.png'),
       date: 'May 2022 – Aug 2022',
     },
