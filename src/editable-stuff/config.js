@@ -145,7 +145,7 @@ const experiences = {
       date: 'Feb 2023 – Present',
     },
     {
-      role: 'Developer Infrastructure & Workflows Intern',// Here Add Company Name
+      role: 'Solutions Engineer Intern',// Here Add Company Name
       companylogo: require('../assets/img/meta.png'),
       date: 'May 2022 – Aug 2022',
     },
