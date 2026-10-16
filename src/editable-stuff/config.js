@@ -106,6 +106,7 @@ const skills = {
   hardSkills: [
     { name: "Compiler Optimizations", value: 94 },
     { name: "Graph IR Transformations", value: 92 },
+    { name: "MLIR (Dialects & Passes)", value: 91 },
     { name: "Compiler Auto‑Tuning", value: 91 },
     { name: "DAG Scheduling", value: 90 },
     { name: "Operator Lowering & Decomposition", value: 90 },
@@ -113,7 +114,6 @@ const skills = {
     { name: "Python, Pytorch", value: 88 },
     { name: "C++", value: 87 },
     { name: "Hardware Acceleration (NPU/VPU, Edge AI)", value: 86 },
-    { name: "Quantization & Low‑Precision", value: 85 },
   ],
   softSkills: [
     { name: "Problem Solving", value: 90 },
